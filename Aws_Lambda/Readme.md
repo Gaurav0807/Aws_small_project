@@ -31,6 +31,8 @@ These instructions will guide you through setting up and deploying the Lambda fu
       - Trigger: Add an **S3 trigger**  and configure it for both ObjectCreated and ObjectRemoved events.
    - Set the environment variable `SNS_TOPIC_ARN` with the SNS Topic ARN created in step 1.
 
+![Lambda_Function_SNS](https://github.com/Gaurav0807/Aws_small_project/blob/main/Aws_Lambda/Img/lambda_function_sns.png)
+
 ### Deploy
 
 1. **Clone the repository:**
@@ -46,6 +48,8 @@ These instructions will guide you through setting up and deploying the Lambda fu
 3. **Upload file to s3 bucket/location**
 
 4. **Soon will get notification based on your subscription**
+
+![Email_Notification](https://github.com/Gaurav0807/Aws_small_project/blob/main/Aws_Lambda/Img/email_notification.png)
 
 
 
