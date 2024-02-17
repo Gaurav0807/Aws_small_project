@@ -18,7 +18,9 @@ These instructions will guide you through setting up and deploying the Lambda fu
 1. **Create an SNS Topic:**
    - In the AWS Management Console, navigate to the Simple Notification Service (SNS) service.
    - Create a new topic and note down the Topic ARN.
-   - Create Subscriptions to that Topic ARN. 
+   - Create Subscriptions to that Topic ARN.
+
+![SNS Topic](https://github.com/Gaurav0807/Aws_small_project/blob/main/Aws_Lambda/Img/sns_topic.png)
 
 2. **Configure Lambda Function:**
    - In the AWS Management Console, navigate to the Lambda service.
@@ -34,7 +36,7 @@ These instructions will guide you through setting up and deploying the Lambda fu
 1. **Clone the repository:**
 
    bash
-   git clone https://github.com/yourusername/lambda-s3-notification.git
+   git clone https://github.com/Gaurav0807/Aws_small_project.git
    
 
 2. **Try to run from aws console:**
