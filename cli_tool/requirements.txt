@@ -1,0 +1,3 @@
+typer 
+boto3 
+rich
